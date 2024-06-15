@@ -6,6 +6,13 @@ body {
     background-color: #000;
     color: #ff0000;
     font-size: 13px;
+    cursor: url('../i/curs0r/0rc.cur'),auto;
+    transition: cursor 3s linear;
+}
+
+a:hover,
+button:hover {
+    cursor: url('../i/curs0r/0rc_1ink.cur'),auto;
 }
 
 header {
@@ -96,7 +103,7 @@ main {
     height: 136px;
     margin-bottom: 6px;
     background-color: #000;
-    background-image:url('../i/c0nt4ct.jpg');
+    background-image:url('../i/c0nt4ct.png');
     background-position-x:0%;
     background-position-y:50%;
     background-size:100%;
@@ -120,27 +127,20 @@ main {
     margin-top: 66px;
 }
 
-.ic0n_xs {
-    width: 44px;
-    height: 44px;
-    transition: filter 0.66s;
-}
-
-.ic0n_s {
-    width: 27px;
-    height: 27px;
-    transition: filter 0.66s;
-}
-
 .ic0n {
     width: 22px;
-    height: 22px;
     transition: filter 0.66s;
 }
 
-.ic0n:hover,
-.ic0n_s:hover,
-.ic0n_xs:hover {
+.h1 {
+    height: 22px;
+}
+
+.d1sc0rd {
+    height: 19px;
+}
+
+.ic0n:hover {
     filter: brightness(200%) saturate(200%) invert(100%);
 }
 
@@ -151,7 +151,7 @@ main {
     flex-direction:column;
     justify-content:space-between;
     background-color:#000;
-    background-image:url('../i/ski11s.jpg');
+    background-image:url('../i/arm0ry.png');
     background-position-x:0%;
     background-position-y:50%;
     background-size:166%;
@@ -170,30 +170,42 @@ main {
     width: 111px;
     height: 466px;
     padding-top: 166px;
-    perspective: 333px;
+    perspective: 222px;
 }
 
-#car0us31_1ist {
+#we4p0n_st4sh {
     width: 111px;
     height: 166px;
-    transform: translateZ(-333px);
+    transform: translateZ(-222px);
     transform-style: preserve-3d;
     transition: transform 1.666s;
 }
 
-.car0us31_c311 {
+.we4p0n_sl0t {
     position: absolute;
-    width: 66px;
-    height: 66px;
     left: 13px;
     top: 50%;
-    border-radius: 50%;
+    width: 66px;
+    height: 66px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #ff0000;
+    border-radius: 50%;
     opacity:91%;
+}
+
+.we4p0n {
+    width:55px;
+    height:55px;
+    animation: h0ver 5s linear 2s infinite alternate;
+}
+
+.we4p0n_alt {
+    width: 44px;
+    height: 44px;
+    animation: h0ver 5s linear 2s infinite alternate-reverse;
 }
 
 @keyframes h0ver {
@@ -202,18 +214,6 @@ main {
     50%     {transform: translateY(0px);}
     75%     {transform: translateY(-6px);}
     100%    {transform: translateY(0px);}
-}
-
-.ski11 {
-    width:55px;
-    height:55px;
-    animation: h0ver 5s linear 2s infinite alternate;
-}
-
-.ski11_alt {
-    width: 44px;
-    height: 44px;
-    animation: h0ver 5s linear 2s infinite alternate-reverse;
 }
 
 #car0us31_c0ntr01s {
@@ -225,21 +225,26 @@ main {
 }
 
 #pr3v_btn, #n3xt_btn {
-    margin: 0.5px auto;
     width: 44px;
     height: 44px;
-    border: 0px 6px 6px 0px solid #000;
-    border-radius: 50%;
-    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0.5px auto;
+    background-color: #333;
+    border: 0px 6px 6px 0px solid #000;
+    border-radius: 50%;
+    transform: filter 3s ease;
 }
 
-@keyframes gl0w {
-    0%      {filter: brightness(91%) hue-rotate(126deg) saturate(100%);}
-    50%     {filter: brightness(131%) hue-rotate(66deg) saturate(166%);}
-    100%    {filter: brightness(91%) hue-rotate(126deg) saturate(100%);}
+#pr3v_btn:hover, #n3xt_btn:hover {
+    filter: brightness(166%);
+    box-shadow: 0 0 6px 6px #03ff9f;
+}
+
+#pr3v_btn:active, #n3xt_btn:active {
+    filter: brightness(666%);
+    box-shadow: 0 0 6px 6px #7affcc;
 }
 
 #pr3v_btn img {
@@ -258,9 +263,10 @@ main {
     animation: gl0w 5s linear 2s infinite alternate;
 }
 
-#pr3v_btn:focus, #n3xt_btn:focus {
-    outline: none;
-    box-shadow: 0 0 6px 3px goldenrod;
+@keyframes gl0w {
+    0%      {filter: brightness(91%) hue-rotate(126deg) saturate(100%);}
+    50%     {filter: brightness(131%) hue-rotate(66deg) saturate(166%);}
+    100%    {filter: brightness(91%) hue-rotate(126deg) saturate(100%);}
 }
 
 footer {
@@ -270,6 +276,10 @@ footer {
     display:flex;
     justify-content:space-between;
     align-items: center;
+    padding: 0 6px;
     background-color:#000;
 }
 
+#p0w3r {
+    margin-right: 13px;
+}

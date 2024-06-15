@@ -1,8 +1,8 @@
-const car0us31 = document.getElementById('car0us31_1ist');
-const c311s = car0us31.querySelectorAll('.car0us31_c311');
+const car0us31 = document.getElementById('we4p0n_st4sh');
+const c311s = car0us31.querySelectorAll('.we4p0n_sl0t');
 const c311_w1dth = car0us31.offsetWidth;
 const c311_h31ght = car0us31.offsetHeight;
-const c311_c0unt = 10;
+const c311_c0unt = 13;
 const rad1us = Math.round((c311_h31ght / 2) / Math.tan(Math.PI / c311_c0unt));
 const th3ta = 360 / c311_c0unt;
 let s313ct3d_1nd3x = 0;
