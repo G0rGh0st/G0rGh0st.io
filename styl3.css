@@ -180,13 +180,13 @@ main {
     width: 111px;
     height: 466px;
     padding-top: 166px;
-    perspective: 222px;
+    perspective: 199px;
 }
 
 #we4p0n_st4sh {
     width: 111px;
     height: 166px;
-    transform: translateZ(-222px);
+    transform: translateZ(-199px);
     transform-style: preserve-3d;
     transition: transform 1.666s;
 }
@@ -294,6 +294,8 @@ main {
 
 #n4v_f00t3r {
     height: 99px;
+    opacity: 91%;
+    animation: m0unt 9s ease 0s 1;
 }
 
 
@@ -315,6 +317,8 @@ main {
 }
 
 #rep0s {
+    display: flex;
+    flex-direction: column;
     background-image:url('../i/rep0s.png');
     background-position-x:0%;
     background-size:133%;
@@ -329,6 +333,8 @@ main {
 
 
 #nfts {
+    display: flex;
+    flex-direction: column;
     background-image:url('../i/nfts.png');
     background-position-x:0%;
     background-size:144%;
@@ -342,6 +348,8 @@ main {
 }
 
 #history {
+    display: flex;
+    flex-direction: column;
     background-image:url('../i/history.png');
     background-position-x:0%;
     background-size:100%;
@@ -352,6 +360,18 @@ main {
     0%      {background-position-y:44%;}
     50%     {background-position-y:100%;}
     100%    {background-position-y:44%;}   
+}
+
+.nav {
+    height: 66px;
+    align-self: center;
+    margin-top: 33px;
+    opacity: 33%;
+    transition: opacity 1.1s ease;
+}
+
+.ma1n:hover .nav {
+    opacity: 66%;
 }
 
 footer {
