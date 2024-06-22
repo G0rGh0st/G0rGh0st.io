@@ -7,7 +7,6 @@ body {
     color: #ff0000;
     font-size: 13px;
     cursor: url('../i/curs0r/0rc.cur'),auto;
-    transition: cursor 3s linear;
 }
 
 a:hover,
@@ -29,12 +28,9 @@ header {
     background-color: #000;
 }
 
-nav {
-    margin-right: 13px;
-}
-
 a {
     color: #ff0000;
+    text-decoration: none;
 }
 
 a:hover {
@@ -42,9 +38,13 @@ a:hover {
     transition: color 0.11s;
 }
 
+nav {
+    margin-right: 13px;
+}
+
 .nav {
-    width: 9px;
-    height: 9px;
+    width: 10px;
+    height: 10px;
     margin: 0px 3px;
 }
 
