@@ -1,0 +1,14 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #ff0000;
+  font-size: 13px;
+  cursor: url('./i/curs0r/0rc.cur'),auto;
+}
+
+a:hover,
+button:hover {
+    cursor: url('./i/curs0r/0rc_1ink.cur'),auto;
+}
