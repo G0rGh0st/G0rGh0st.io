@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #000;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.11s;
+}
+
+a:hover {
+    color: #c300ff;
+    text-decoration: underline;
+    transition: color 0.11s;
+}
