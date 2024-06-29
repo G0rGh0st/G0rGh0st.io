@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-color: #000;
   color: #ff0000;
+  font-family: monospace;
   font-size: 13px;
   cursor: url('./i/curs0r/0rc.cur'),auto;
 }
@@ -11,4 +12,18 @@ body {
 a:hover,
 button:hover {
     cursor: url('./i/curs0r/0rc_1ink.cur'),auto;
+}
+
+#c0nta1n3r {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes m0unt {
+  0%      {opacity:0;}
+  100%    {opacity:91%;}
 }

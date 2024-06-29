@@ -1,0 +1,27 @@
+#whoami {
+    width: 333px;
+    padding: 6px 6px;
+    background-color:#000;
+    opacity: 91%;   
+    animation: m0unt 6s ease 0s 1;
+}
+
+.s1g1l {
+    width:100%;
+    margin-bottom: 2px;
+    filter:contrast(113%);
+}
+
+#us3rnam3 {
+    animation: hu3_r0tat3 1.666s linear 0s infinite;
+}
+
+@keyframes hu3_r0tat3 {
+    0%      {filter: hue-rotate(0deg);}
+    100%    {filter: hue-rotate(360deg);}   
+}
+
+#l0cat10n {
+    height: 13px;
+    margin-right: 6px;
+}

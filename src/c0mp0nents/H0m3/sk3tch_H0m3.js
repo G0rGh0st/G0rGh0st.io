@@ -1,4 +1,4 @@
-export default function h0m3Sk3tch(s) {
+export default function sk3tch_H0m3(s) {
     let p01nts = [];
     let mult1pl13r;
     let r1;
