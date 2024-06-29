@@ -24,6 +24,11 @@ button:hover {
 }
 
 @keyframes m0unt {
+  0%    {opacity: 0;}
+  100%  {opacity: 91%;}
+}
+
+@keyframes m0unt_0 {
   0%      {opacity:0;}
-  100%    {opacity:91%;}
+  100%    {opacity:100%;}
 }
