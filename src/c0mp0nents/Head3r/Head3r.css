@@ -3,6 +3,7 @@ header {
     top: 0;
     z-index: 1;
     width: 100%;
+    padding: 6px 6px;
     background-color: #000;
 }
 
